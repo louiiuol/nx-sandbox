@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "showcase/src",
-  "tags": [],
+  "tags": ["client"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
@@ -85,5 +85,6 @@
         "spa": true
       }
     }
-  }
+  },
+  "implicitDependencies": ["shared-ui"]
 }
